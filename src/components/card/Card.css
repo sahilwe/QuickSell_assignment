@@ -1,0 +1,104 @@
+/* Card container */
+.Card-container {
+ 
+  height: 155px;
+  width: 98%;
+  margin: 20px 2px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-content{
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+.card-title{
+  margin:12px 2px 2px 2px;
+}
+/* Card header */
+.top {
+ display: flex;
+ justify-content: space-between;
+  padding: 10px;
+  height: 19px;
+}
+.top h2{
+  font-size: 18px;
+  font-weight: 500;
+  color: #848588;
+}
+
+/* Avatar container */
+.Avatar-container {
+  margin-left: 10px;
+}
+
+/* Dot */
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: #e74c3c;
+  border-radius: 50%;
+}
+
+/* Card body */
+.bottom {
+  display: flex;
+  
+  align-items: center;
+  height: 42px;
+}
+
+/* Card content */
+.Feature-Request p {
+  font-size: 16px;
+  color: #6c757d;
+}
+
+/* Three dots */
+.three-dots {
+  font-size: 18px;
+  margin: 16px;
+  color: #3498db;
+  cursor: pointer;
+}
+
+.three-dots p{
+  font-size: 19px;
+    font-weight: 600;
+    margin: 12px 19px;
+    margin: 12px 4px;
+    color: #2c3e50;
+}
+
+/* Hover effect for three dots */
+.three-dots:hover {
+  color: #f1c40f;
+}
+
+/* Feature request section */
+.Feature-Request {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  width: 43%;
+  height: 28px;
+  color: #aaabb0;
+  background-color: #ffffff;
+  padding: 0;
+  /* border-radius: 0; */
+  border: 1px solid #8b8e94;
+  border-radius: 6px;
+}
+
+/* Feature request dot */
+.Feature-Request .dot {
+  width: 14px;
+  height: 14px;
+  background-color: #aaabb0;
+  border-radius: 50%;
+  margin: 7px;
+}
